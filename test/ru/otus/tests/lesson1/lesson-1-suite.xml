@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="lesson-1" verbose="1">
+    <test name="all">
+        <packages>
+            <package name="ru.otus.tests.lesson1"/>
+        </packages>
+    </test>
+</suite>

@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
 
-    public static WebDriver getWebDriver(String browser) {
+    public static synchronized WebDriver getWebDriver(String browser) {
         switch (browser.trim().toLowerCase()) {
             case "ff":
             case "firefox":
