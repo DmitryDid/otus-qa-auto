@@ -45,8 +45,7 @@ public class TestBase {
         for (WebDriver webDriver : drivers) {
             try {
                 webDriver.close();
-            } catch (Exception e) {
-                System.out.println();
+            } catch (Exception ignored) {
             }
         }
     }
