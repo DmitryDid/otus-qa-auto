@@ -37,7 +37,7 @@ public class TestBase {
         if (trMainPage.get() == null) {
             trMainPage.set(new MainPage(driver));
         }
-        mainPage = new MainPage(driver);
+        mainPage = trMainPage.get();
     }
 
     @AfterSuite
