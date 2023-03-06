@@ -5,6 +5,7 @@
 - maven
 - java 11
 - IntelliJ IDEA
+- браузеры Chrome и FireFox
 
 ### Запуск тестов осуществляется с помощью TestNg, следующем образом:
 
