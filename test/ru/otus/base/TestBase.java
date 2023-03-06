@@ -14,9 +14,9 @@ public class TestBase {
 
     private static final String BROWSER_NAME = System.getenv("BROWSER_NAME");
 
-    protected List<WebDriver> drivers = new ArrayList<>();
-    protected ThreadLocal<WebDriver> trDriver = new ThreadLocal<>();
-    protected ThreadLocal<MainPage> trMainPage = new ThreadLocal<>();
+    private List<WebDriver> drivers = new ArrayList<>();
+    private ThreadLocal<WebDriver> trDriver = new ThreadLocal<>();
+    private ThreadLocal<MainPage> trMainPage = new ThreadLocal<>();
 
     protected WebDriver driver;
     protected MainPage mainPage;
